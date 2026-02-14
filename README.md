@@ -13,7 +13,7 @@ Copy the link below, go to uBlock Origin > Dashboard > Filter lists, scroll to t
 
 [> uBlock Origin subscribe link <](ubo:subscribe?location=https://raw.githubusercontent.com/i5heu/ublock-hide-yt-shorts/master/comments.txt) (does not work on GitHub)
 
-## Maintancance
+## Maintenance
 
 After the initial createor of this list [@gijsdev](https://github.com/gijsdev) is now vanished for half a year, i ( [i5heu](https://heidenstedt.org) ) took it on me to maintain this list.
 

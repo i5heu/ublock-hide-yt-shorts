@@ -2,7 +2,7 @@
 
 A maintained [uBlock Origin](https://github.com/gorhill/uBlock) filter list to hide all traces of YouTube shorts videos.
 
-Copy the link below, go to uBlock Origin > Dashboard > Filter lists, scroll to the bottom, and paste the link underneath the 'Import...' heading:
+Copy the link below, go to uBlock Origin > Dashboard > Filter lists, scroll to the bottom, and paste the link underneath the 'Import...' heading:  
 `https://raw.githubusercontent.com/i5heu/ublock-hide-yt-shorts/master/list.txt`
 
 [> uBlock Origin subscribe link <](ubo:subscribe?location=https://raw.githubusercontent.com/i5heu/ublock-hide-yt-shorts/master/list.txt) (does not work on GitHub)

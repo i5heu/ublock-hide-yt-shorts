@@ -9,9 +9,11 @@
 
 ! Hide on Homepage
 www.youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytd-rich-section-renderer:has(a[href^="/playables/"])
 
 ! Hide on search page
 www.youtube.com##ytd-search grid-shelf-view-model:has(a[href^="/shorts/"])
+www.youtube.com##ytd-search grid-shelf-view-model:has(a[href^="/playables/"])
 
 ! Hide shorts button in sidebar
 www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
@@ -47,6 +49,7 @@ m.youtube.com##ytm-reel-shelf-renderer:has(.reel-shelf-title-wrapper .yt-core-at
 
 ! Hide shorts category on homepage
 m.youtube.com##ytm-chip-cloud-chip-renderer:has(.yt-core-attributed-string:has-text(/^Shorts$/i))
+m.youtube.com##ytm-chip-cloud-chip-renderer:has(.yt-core-attributed-string:has-text(/^YouTube Playables$/i))
 
 ! Hide shorts sections on search page
 m.youtube.com##ytm-reel-shelf-renderer:has(ytm-shorts-lockup-view-model)

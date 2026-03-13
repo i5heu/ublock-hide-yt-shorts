@@ -1,0 +1,16 @@
+! Title: Hide YouTube Playables
+! Description: Hide all traces of YouTube playables videos on YouTube
+! Version: 2026.3.13
+! Last modified: 2026-03-13 12:23
+! Expires: 2 weeks (update frequency)
+! Homepage: https://github.com/i5heu/ublock-hide-yt-shorts
+! License: https://github.com/i5heu/ublock-hide-yt-shorts/blob/master/LICENSE.md
+
+! Hide on Homepage
+www.youtube.com##ytd-rich-section-renderer:has(a[href^="/playables/"])
+
+! Hide on search page
+www.youtube.com##ytd-search grid-shelf-view-model:has(a[href^="/playables/"])
+
+! Hide shorts category on homepage
+m.youtube.com##ytm-chip-cloud-chip-renderer:has(.yt-core-attributed-string:has-text(/^YouTube Playables$/i))

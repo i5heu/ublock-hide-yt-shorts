@@ -12,6 +12,8 @@ www.youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
 
 ! Hide on search page
 www.youtube.com##ytd-search grid-shelf-view-model:has(a[href^="/shorts/"])
+! Hide shorts search tab of search results 
+www.youtube.com##yt-chip-cloud-chip-renderer:has(*:has-text(/^Shorts$/i))
 
 ! Hide shorts button in sidebar
 www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))

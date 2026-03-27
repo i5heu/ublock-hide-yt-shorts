@@ -52,3 +52,4 @@ m.youtube.com##ytm-chip-cloud-chip-renderer:has(.yt-core-attributed-string:has-t
 
 ! Hide shorts sections on search page
 m.youtube.com##grid-shelf-view-model:has(ytm-shorts-lockup-view-model)
+m.youtube.com##ytm-video-with-context-renderer:has(.big-shorts-singleton)
